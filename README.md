@@ -4,6 +4,8 @@ This is a skeleton.
 
 This project builds upon Agent C Framework and provides additional utilities and reference implementations. Follow these instructions to get started with development.
 
+**Note:** The branch `reference` has been set aside to serve as a reference starting point for people working with local/private copies of the Agent C source.
+
 ## Prerequisites
 
 - **Python 3.10+**: This project requires Python 3.10 or newer. [Download Python](https://www.python.org/downloads/)
