@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "ghost_writer"
+version = "0.0.1"
+dependencies = [
+    "pydantic==2.9.2",
+    "agent_c-core>=0.1.3",
+    "agent_c-tools>=0.1.3",
+]
+requires-python = ">=3.10"
+authors = [
+  {name = "Donavan Stanley", email = "snark@hey.com"},
+]
+maintainers = [
+  {name = "Donavan Stanley", email = "snark@hey.com"},
+]
+description = "Core functionality for Agent C"
+readme = "README.MD"
+license = { text = "GPL-3.0" }
+keywords = ["gpt", "claude", "agents", "ai", "music"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://github.com/Donavan/ghost_writer"
+
+
